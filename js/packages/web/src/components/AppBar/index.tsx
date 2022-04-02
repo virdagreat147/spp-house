@@ -54,7 +54,13 @@ export const MetaplexMenu = () => {
     return (
       <>
         <Modal
-          title={<img src={'/spp-logo-png.png'} />}
+          title={
+            <img
+              src={
+                'https://raw.githubusercontent.com/virdagreat147/images/main/spp-logo-png.png'
+              }
+            />
+          }
           visible={isModalVisible}
           footer={null}
           className={'modal-box'}
@@ -113,7 +119,11 @@ export const MetaplexMenu = () => {
 export const LogoLink = () => {
   return (
     <Link to={`/`}>
-      <img src={'/spp-logo-png.png'} />
+      <img
+        src={
+          'https://raw.githubusercontent.com/virdagreat147/images/main/spp-logo-png.png'
+        }
+      />
     </Link>
   );
 };

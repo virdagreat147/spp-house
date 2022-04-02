@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://metaplex.com">
-    <img alt="Metaplex" src="js/packages/web/public/spp-logo-png.png" style="background: black; padding: 10px" width="250" />
+    <img alt="SPP" src="https://raw.githubusercontent.com/virdagreat147/images/main/spp-logo-png.png" style="background: black; padding: 10px" width="250" />
   </a>
 </p>
 
