@@ -43,7 +43,7 @@ export const SalesListView = (props: { collectionMintFilter?: string }) => {
     <>
       {!props.collectionMintFilter && (
         <Banner
-          src="/main-banner.svg"
+          src="none"
           headingText="SPP Auction House"
           subHeadingText="Use Your Treats Wisely"
           actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
@@ -75,13 +75,13 @@ export const SalesListView = (props: { collectionMintFilter?: string }) => {
                 <TabPane tab="Ended" key={LiveAuctionViewState.Ended}></TabPane>
                 {connected && (
                   <TabPane
-                    tab="Participated"
+                    tab=""
                     key={LiveAuctionViewState.Participated}
                   ></TabPane>
                 )}
                 {connected && (
                   <TabPane
-                    tab="My Live Auctions"
+                    tab=""
                     key={LiveAuctionViewState.Own}
                   ></TabPane>
                 )}

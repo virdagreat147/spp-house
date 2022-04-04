@@ -26,22 +26,23 @@ export default class MetaplexDocument extends Document {
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="/favicon-32x32.png"
+            href="/https://raw.githubusercontent.com/virdagreat147/images/main/500x500%20face.png"
           />
           <link
             rel="icon"
             type="image/png"
             sizes="96x96"
-            href="/favicon-96x96.png"
+            href="https://raw.githubusercontent.com/virdagreat147/images/main/500x500%20face.png"
           />
           <link
             rel="icon"
             type="image/png"
             sizes="16x16"
-            href="/favicon-16x16.png"
+            href="https://raw.githubusercontent.com/virdagreat147/images/main/500x500%20face.png"
           />
           <meta name="theme-color" content="#000000" />
-          <meta name="description" content="Metaplex NFT Marketplace" />
+          <meta name="image-embed" content="%PUBLIC_URL%https://raw.githubusercontent.com/virdagreat147/images/main/500x500%20face.png"/>
+          <meta name="description" content="The Official Place For Treats to Meet" />
           <link rel="manifest" href="/manifest.json" />
           <link
             rel="stylesheet"

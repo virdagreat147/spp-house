@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "https://raw.githubusercontent.com/virdagreat147/images/main/500x500%20face.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "https://raw.githubusercontent.com/virdagreat147/images/main/500x500%20face.png",
       "type": "image/png",
       "sizes": "512x512"
     }

@@ -2,7 +2,7 @@
 .metamask-icon {
   background-position: 50%;
   background-repeat: no-repeat;
-  background-image: url(/assets/metamask.svg);
+  background-image:none;
 }
 
 .app-left {
@@ -39,8 +39,13 @@ section.ant-layout {
 }
 
 section#main-layout.ant-layout {
-  background-color: @bg-color !important;
-  min-height: 100vh;
+  background-image:none !important;
+  height: 100%;
+  width: 100%;
+  background-position: absolute;
+  background-size: auto;
+  background-repeat: no-repeat;
+
 
   span#static-header-gradient {
     display: none;
@@ -48,7 +53,7 @@ section#main-layout.ant-layout {
     height: 300px;
     width: 100%;
     left: 0;
-    background: linear-gradient(0, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 100%);
+    background: #e5811f;
   }
 
   span#static-end-gradient {
@@ -57,32 +62,27 @@ section#main-layout.ant-layout {
     height: 300px;
     width: 100%;
     left: 0;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 100%);
+    background: #e5811f;
   }
 
   #bg-gradient {
     position: absolute;
-    height: 200px;
-    width: 100%;
-    left: 0;
-    top: 510px;
-    background: linear-gradient(180deg, rgba(18, 18, 18, 0) 0%, @black-100 100%);
-    display: none;
-  }
+    height: 1080px;
+    width: 1920px;
+    background-image:url("https://raw.githubusercontent.com/virdagreat147/images/main/SPP-Bckgrund.png");
+    background-position: center;
+    min-height: 1080px;
+    min-width: 1920px;
+    background-attachment: fixed;
+  } 
+
 
   span#main-bg {
     display: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 708px;
-    background: linear-gradient(180deg, rgba(18, 18, 18, 0) 0%, @black-100 100%);;
-    background-position: top left !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    filter: blur(220px);
-    clip-path: inset(0 0 0 0);
+    position: center;
+    height: 100%;
+    width: 100%;
+    background-image:none;
   }
 }
 

@@ -16,18 +16,7 @@ import { MobileNavbar } from '../MobileNavbar';
 
 const getDefaultLinkActions = (connected: boolean) => {
   return [
-    <Link to={`/`} key={'explore'}>
-      <Button className="app-btn">Explore</Button>
-    </Link>,
-    <Link to={`/collections`} key={'collections'}>
-      <Button className="app-btn">Collections</Button>
-    </Link>,
-    <Link to={`/artworks`} key={'artwork'}>
-      <Button className="app-btn">{connected ? 'My Items' : 'Artwork'}</Button>
-    </Link>,
-    <Link to={`/artists`} key={'artists'}>
-      <Button className="app-btn">Creators</Button>
-    </Link>,
+    
   ];
 };
 
@@ -55,10 +44,12 @@ export const MetaplexMenu = () => {
       <>
         <Modal
           title={
+
             <img
-              src={
-                'https://raw.githubusercontent.com/virdagreat147/images/main/spp-logo-png.png'
-              }
+              src={'https://raw.githubusercontent.com/virdagreat147/images/main/1000x500.png'
+               }
+               width="400"
+               height="500"
             />
           }
           visible={isModalVisible}
@@ -121,8 +112,11 @@ export const LogoLink = () => {
     <Link to={`/`}>
       <img
         src={
-          'https://raw.githubusercontent.com/virdagreat147/images/main/spp-logo-png.png'
+          'https://raw.githubusercontent.com/virdagreat147/images/main/500x500%20face.png'
         }
+        height="50
+      "
+        width="50"
       />
     </Link>
   );
